@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8454EC2D3919B10079D344 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8454EB2D3919B10079D344 /* SaleTableViewCell.swift */; };
+		4E8454EE2D3919D00079D344 /* RepairVehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8454ED2D3919D00079D344 /* RepairVehicleTableViewCell.swift */; };
+		4E8BC0EF2D37B3CE00BE5EC0 /* WelcomeSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0EE2D37B3CE00BE5EC0 /* WelcomeSViewController.swift */; };
+		4E8BC0F12D37B42A00BE5EC0 /* DashboardSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0F02D37B42A00BE5EC0 /* DashboardSViewController.swift */; };
+		4E8BC0F32D37B82800BE5EC0 /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0F22D37B82800BE5EC0 /* DashboardCollectionViewCell.swift */; };
+		4E8BC0F62D37BD4400BE5EC0 /* AddEmployeeRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0F52D37BD4400BE5EC0 /* AddEmployeeRecordViewController.swift */; };
+		4E8BC0F92D37C41B00BE5EC0 /* ShowEmployeeRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0F82D37C41B00BE5EC0 /* ShowEmployeeRecordViewController.swift */; };
+		4E8BC0FD2D37C6E500BE5EC0 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0FC2D37C6E500BE5EC0 /* EmployeeTableViewCell.swift */; };
+		4E8BC1002D37C8D500BE5EC0 /* AddrepairvehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC0FF2D37C8D500BE5EC0 /* AddrepairvehicleViewController.swift */; };
+		4E8BC1032D37CF3900BE5EC0 /* ShowrepairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC1022D37CF3900BE5EC0 /* ShowrepairViewController.swift */; };
+		4E8BC1052D37D06300BE5EC0 /* showrepairTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC1042D37D06300BE5EC0 /* showrepairTableViewCell.swift */; };
+		4E8BC10A2D37D52400BE5EC0 /* addsaleorpurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC1092D37D52400BE5EC0 /* addsaleorpurchaseViewController.swift */; };
+		4E8BC10C2D37D76E00BE5EC0 /* ShowsaleorpurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC10B2D37D76E00BE5EC0 /* ShowsaleorpurchaseViewController.swift */; };
+		4E8BC10E2D37D8BD00BE5EC0 /* showsaleandpurchaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8BC10D2D37D8BD00BE5EC0 /* showsaleandpurchaseTableViewCell.swift */; };
+		4ED466202D38F24900499D36 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4661C2D38F24900499D36 /* SideMenuTableViewCell.swift */; };
+		4ED466212D38F24900499D36 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4661D2D38F24900499D36 /* FeedbackViewController.swift */; };
+		4ED466222D38F24900499D36 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4661E2D38F24900499D36 /* SettingsViewController.swift */; };
+		4ED466232D38F24900499D36 /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4661F2D38F24900499D36 /* AboutusViewController.swift */; };
+		4ED466282D39039000499D36 /* SaleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED466272D39039000499D36 /* SaleHistoryViewController.swift */; };
+		99DE6A1E0263FB410BCE06DA /* Pods_GaragePoint_Hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFD9C7F11C8026D8AB1CB0E /* Pods_GaragePoint_Hub.framework */; };
+		AA531DB52D33C81500462884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA531DB42D33C81500462884 /* AppDelegate.swift */; };
+		AA531DB72D33C81500462884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA531DB62D33C81500462884 /* SceneDelegate.swift */; };
+		AA531DB92D33C81500462884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA531DB82D33C81500462884 /* ViewController.swift */; };
+		AA531DBC2D33C81500462884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA531DBA2D33C81500462884 /* Main.storyboard */; };
+		AA531DBE2D33C81700462884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA531DBD2D33C81700462884 /* Assets.xcassets */; };
+		AA531DC12D33C81700462884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA531DBF2D33C81700462884 /* LaunchScreen.storyboard */; };
+		AA531DCB2D33CEB100462884 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA531DC92D33CEB100462884 /* Helper.swift */; };
+		AA531DCC2D33CEB100462884 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA531DCA2D33CEB100462884 /* iOSDropDown.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D9FE26BAE48DF841CC853B7 /* Pods-GaragePoint Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaragePoint Hub.release.xcconfig"; path = "Target Support Files/Pods-GaragePoint Hub/Pods-GaragePoint Hub.release.xcconfig"; sourceTree = "<group>"; };
+		3CF13F7F861C826E36D6BC53 /* Pods-GaragePoint Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaragePoint Hub.debug.xcconfig"; path = "Target Support Files/Pods-GaragePoint Hub/Pods-GaragePoint Hub.debug.xcconfig"; sourceTree = "<group>"; };
+		4E8454EB2D3919B10079D344 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
+		4E8454ED2D3919D00079D344 /* RepairVehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairVehicleTableViewCell.swift; sourceTree = "<group>"; };
+		4E8BC0EE2D37B3CE00BE5EC0 /* WelcomeSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSViewController.swift; sourceTree = "<group>"; };
+		4E8BC0F02D37B42A00BE5EC0 /* DashboardSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSViewController.swift; sourceTree = "<group>"; };
+		4E8BC0F22D37B82800BE5EC0 /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E8BC0F52D37BD4400BE5EC0 /* AddEmployeeRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeRecordViewController.swift; sourceTree = "<group>"; };
+		4E8BC0F82D37C41B00BE5EC0 /* ShowEmployeeRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEmployeeRecordViewController.swift; sourceTree = "<group>"; };
+		4E8BC0FC2D37C6E500BE5EC0 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		4E8BC0FF2D37C8D500BE5EC0 /* AddrepairvehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddrepairvehicleViewController.swift; sourceTree = "<group>"; };
+		4E8BC1022D37CF3900BE5EC0 /* ShowrepairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowrepairViewController.swift; sourceTree = "<group>"; };
+		4E8BC1042D37D06300BE5EC0 /* showrepairTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showrepairTableViewCell.swift; sourceTree = "<group>"; };
+		4E8BC1092D37D52400BE5EC0 /* addsaleorpurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addsaleorpurchaseViewController.swift; sourceTree = "<group>"; };
+		4E8BC10B2D37D76E00BE5EC0 /* ShowsaleorpurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsaleorpurchaseViewController.swift; sourceTree = "<group>"; };
+		4E8BC10D2D37D8BD00BE5EC0 /* showsaleandpurchaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showsaleandpurchaseTableViewCell.swift; sourceTree = "<group>"; };
+		4ED4661C2D38F24900499D36 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		4ED4661D2D38F24900499D36 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4ED4661E2D38F24900499D36 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4ED4661F2D38F24900499D36 /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		4ED466272D39039000499D36 /* SaleHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleHistoryViewController.swift; sourceTree = "<group>"; };
+		AA531DB12D33C81500462884 /* GaragePoint Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GaragePoint Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA531DB42D33C81500462884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA531DB62D33C81500462884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA531DB82D33C81500462884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA531DBB2D33C81500462884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA531DBD2D33C81700462884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA531DC02D33C81700462884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA531DC22D33C81700462884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA531DC92D33CEB100462884 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AA531DCA2D33CEB100462884 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		DBFD9C7F11C8026D8AB1CB0E /* Pods_GaragePoint_Hub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaragePoint_Hub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA531DAE2D33C81500462884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DE6A1E0263FB410BCE06DA /* Pods_GaragePoint_Hub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8BC0EC2D37B39D00BE5EC0 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC0EE2D37B3CE00BE5EC0 /* WelcomeSViewController.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		4E8BC0ED2D37B3AA00BE5EC0 /* DashboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC0F02D37B42A00BE5EC0 /* DashboardSViewController.swift */,
+				4E8BC0F22D37B82800BE5EC0 /* DashboardCollectionViewCell.swift */,
+			);
+			path = DashboardScreen;
+			sourceTree = "<group>";
+		};
+		4E8BC0F42D37BD1C00BE5EC0 /* AddEmployee */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC0F52D37BD4400BE5EC0 /* AddEmployeeRecordViewController.swift */,
+			);
+			path = AddEmployee;
+			sourceTree = "<group>";
+		};
+		4E8BC0F72D37C40300BE5EC0 /* ShowEmployee */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC0F82D37C41B00BE5EC0 /* ShowEmployeeRecordViewController.swift */,
+				4E8BC0FC2D37C6E500BE5EC0 /* EmployeeTableViewCell.swift */,
+			);
+			path = ShowEmployee;
+			sourceTree = "<group>";
+		};
+		4E8BC0FE2D37C8A100BE5EC0 /* Addrepairvehicle */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC0FF2D37C8D500BE5EC0 /* AddrepairvehicleViewController.swift */,
+			);
+			path = Addrepairvehicle;
+			sourceTree = "<group>";
+		};
+		4E8BC1012D37CF2100BE5EC0 /* Showrepairrecords */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC1022D37CF3900BE5EC0 /* ShowrepairViewController.swift */,
+				4E8BC1042D37D06300BE5EC0 /* showrepairTableViewCell.swift */,
+			);
+			path = Showrepairrecords;
+			sourceTree = "<group>";
+		};
+		4E8BC1072D37D4EF00BE5EC0 /* addsaleorpurchase */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC1092D37D52400BE5EC0 /* addsaleorpurchaseViewController.swift */,
+			);
+			path = addsaleorpurchase;
+			sourceTree = "<group>";
+		};
+		4E8BC1082D37D4F900BE5EC0 /* showsalerpurchase */ = {
+			isa = PBXGroup;
+			children = (
+				4E8BC10B2D37D76E00BE5EC0 /* ShowsaleorpurchaseViewController.swift */,
+				4E8BC10D2D37D8BD00BE5EC0 /* showsaleandpurchaseTableViewCell.swift */,
+			);
+			path = showsalerpurchase;
+			sourceTree = "<group>";
+		};
+		4ED4661B2D38F22C00499D36 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4661F2D38F24900499D36 /* AboutusViewController.swift */,
+				4ED4661D2D38F24900499D36 /* FeedbackViewController.swift */,
+				4ED4661E2D38F24900499D36 /* SettingsViewController.swift */,
+				4ED4661C2D38F24900499D36 /* SideMenuTableViewCell.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		4ED466242D39032700499D36 /* HistoryDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4ED466272D39039000499D36 /* SaleHistoryViewController.swift */,
+				4E8454EB2D3919B10079D344 /* SaleTableViewCell.swift */,
+				4E8454ED2D3919D00079D344 /* RepairVehicleTableViewCell.swift */,
+			);
+			path = HistoryDashboard;
+			sourceTree = "<group>";
+		};
+		4FA56D3E044ED45336552D1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF13F7F861C826E36D6BC53 /* Pods-GaragePoint Hub.debug.xcconfig */,
+				1D9FE26BAE48DF841CC853B7 /* Pods-GaragePoint Hub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA531DA82D33C81500462884 = {
+			isa = PBXGroup;
+			children = (
+				AA531DB32D33C81500462884 /* GaragePoint Hub */,
+				AA531DB22D33C81500462884 /* Products */,
+				4FA56D3E044ED45336552D1D /* Pods */,
+				CEC748E8AFA8D5D1E87A5360 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA531DB22D33C81500462884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA531DB12D33C81500462884 /* GaragePoint Hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA531DB32D33C81500462884 /* GaragePoint Hub */ = {
+			isa = PBXGroup;
+			children = (
+				4ED466242D39032700499D36 /* HistoryDashboard */,
+				4ED4661B2D38F22C00499D36 /* AppSettings */,
+				4E8BC1082D37D4F900BE5EC0 /* showsalerpurchase */,
+				4E8BC1072D37D4EF00BE5EC0 /* addsaleorpurchase */,
+				4E8BC1012D37CF2100BE5EC0 /* Showrepairrecords */,
+				4E8BC0FE2D37C8A100BE5EC0 /* Addrepairvehicle */,
+				4E8BC0F72D37C40300BE5EC0 /* ShowEmployee */,
+				4E8BC0F42D37BD1C00BE5EC0 /* AddEmployee */,
+				4E8BC0ED2D37B3AA00BE5EC0 /* DashboardScreen */,
+				4E8BC0EC2D37B39D00BE5EC0 /* WelcomeScreen */,
+				AA531DC82D33CE7C00462884 /* Helper */,
+				AA531DB42D33C81500462884 /* AppDelegate.swift */,
+				AA531DB62D33C81500462884 /* SceneDelegate.swift */,
+				AA531DB82D33C81500462884 /* ViewController.swift */,
+				AA531DBA2D33C81500462884 /* Main.storyboard */,
+				AA531DBD2D33C81700462884 /* Assets.xcassets */,
+				AA531DBF2D33C81700462884 /* LaunchScreen.storyboard */,
+				AA531DC22D33C81700462884 /* Info.plist */,
+			);
+			path = "GaragePoint Hub";
+			sourceTree = "<group>";
+		};
+		AA531DC82D33CE7C00462884 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AA531DC92D33CEB100462884 /* Helper.swift */,
+				AA531DCA2D33CEB100462884 /* iOSDropDown.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CEC748E8AFA8D5D1E87A5360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBFD9C7F11C8026D8AB1CB0E /* Pods_GaragePoint_Hub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA531DB02D33C81500462884 /* GaragePoint Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA531DC52D33C81700462884 /* Build configuration list for PBXNativeTarget "GaragePoint Hub" */;
+			buildPhases = (
+				BFDD9BCB29F1635C974D6EB0 /* [CP] Check Pods Manifest.lock */,
+				AA531DAD2D33C81500462884 /* Sources */,
+				AA531DAE2D33C81500462884 /* Frameworks */,
+				AA531DAF2D33C81500462884 /* Resources */,
+				B1A948E62432D32C33C5D7F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GaragePoint Hub";
+			productName = "GaragePoint Hub";
+			productReference = AA531DB12D33C81500462884 /* GaragePoint Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA531DA92D33C81500462884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AA531DB02D33C81500462884 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AA531DAC2D33C81500462884 /* Build configuration list for PBXProject "GaragePoint Hub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA531DA82D33C81500462884;
+			productRefGroup = AA531DB22D33C81500462884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA531DB02D33C81500462884 /* GaragePoint Hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA531DAF2D33C81500462884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA531DC12D33C81700462884 /* LaunchScreen.storyboard in Resources */,
+				AA531DBE2D33C81700462884 /* Assets.xcassets in Resources */,
+				AA531DBC2D33C81500462884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1A948E62432D32C33C5D7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GaragePoint Hub/Pods-GaragePoint Hub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GaragePoint Hub/Pods-GaragePoint Hub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GaragePoint Hub/Pods-GaragePoint Hub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDD9BCB29F1635C974D6EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaragePoint Hub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA531DAD2D33C81500462884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA531DB92D33C81500462884 /* ViewController.swift in Sources */,
+				4E8BC10A2D37D52400BE5EC0 /* addsaleorpurchaseViewController.swift in Sources */,
+				4E8BC10C2D37D76E00BE5EC0 /* ShowsaleorpurchaseViewController.swift in Sources */,
+				4ED466222D38F24900499D36 /* SettingsViewController.swift in Sources */,
+				4ED466212D38F24900499D36 /* FeedbackViewController.swift in Sources */,
+				4E8BC0F62D37BD4400BE5EC0 /* AddEmployeeRecordViewController.swift in Sources */,
+				4ED466232D38F24900499D36 /* AboutusViewController.swift in Sources */,
+				4E8BC0F32D37B82800BE5EC0 /* DashboardCollectionViewCell.swift in Sources */,
+				AA531DB52D33C81500462884 /* AppDelegate.swift in Sources */,
+				AA531DCC2D33CEB100462884 /* iOSDropDown.swift in Sources */,
+				4E8BC0F12D37B42A00BE5EC0 /* DashboardSViewController.swift in Sources */,
+				4E8BC1002D37C8D500BE5EC0 /* AddrepairvehicleViewController.swift in Sources */,
+				4E8BC1032D37CF3900BE5EC0 /* ShowrepairViewController.swift in Sources */,
+				4E8BC0FD2D37C6E500BE5EC0 /* EmployeeTableViewCell.swift in Sources */,
+				4E8BC10E2D37D8BD00BE5EC0 /* showsaleandpurchaseTableViewCell.swift in Sources */,
+				AA531DB72D33C81500462884 /* SceneDelegate.swift in Sources */,
+				AA531DCB2D33CEB100462884 /* Helper.swift in Sources */,
+				4E8BC1052D37D06300BE5EC0 /* showrepairTableViewCell.swift in Sources */,
+				4E8454EE2D3919D00079D344 /* RepairVehicleTableViewCell.swift in Sources */,
+				4E8454EC2D3919B10079D344 /* SaleTableViewCell.swift in Sources */,
+				4ED466282D39039000499D36 /* SaleHistoryViewController.swift in Sources */,
+				4ED466202D38F24900499D36 /* SideMenuTableViewCell.swift in Sources */,
+				4E8BC0F92D37C41B00BE5EC0 /* ShowEmployeeRecordViewController.swift in Sources */,
+				4E8BC0EF2D37B3CE00BE5EC0 /* WelcomeSViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA531DBA2D33C81500462884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA531DBB2D33C81500462884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA531DBF2D33C81700462884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA531DC02D33C81700462884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA531DC32D33C81700462884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA531DC42D33C81700462884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA531DC62D33C81700462884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF13F7F861C826E36D6BC53 /* Pods-GaragePoint Hub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHBA5229ZK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GaragePoint Hub/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GaragePoint-Hub.sm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA531DC72D33C81700462884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9FE26BAE48DF841CC853B7 /* Pods-GaragePoint Hub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHBA5229ZK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GaragePoint Hub/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GaragePoint-Hub.sm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA531DAC2D33C81500462884 /* Build configuration list for PBXProject "GaragePoint Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA531DC32D33C81700462884 /* Debug */,
+				AA531DC42D33C81700462884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA531DC52D33C81700462884 /* Build configuration list for PBXNativeTarget "GaragePoint Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA531DC62D33C81700462884 /* Debug */,
+				AA531DC72D33C81700462884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA531DA92D33C81500462884 /* Project object */;
+}
